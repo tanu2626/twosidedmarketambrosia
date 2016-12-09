@@ -4,6 +4,7 @@ before_action :authenticate_user!, only: [:dashboard]
     if current_user
         redirect_to products_path
     end
+    @products = Product.last(4)
   end
 
   def dashboard
