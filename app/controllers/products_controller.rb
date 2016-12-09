@@ -4,7 +4,8 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    @products = Product.all
+    @products = Product.where(availability: true)
+    # only show the products which are available
   end
 
   # GET /products/1
