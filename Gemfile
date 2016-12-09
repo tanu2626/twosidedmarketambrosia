@@ -54,3 +54,4 @@ gem 'carrierwave'
 gem 'cloudinary'
 gem 'dotenv-rails', groups: [:development]
 gem 'friendly_id'
+gem 'stripe'
