@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161209054931) do
+ActiveRecord::Schema.define(version: 20161209063709) do
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string   "slug",                      null: false
@@ -36,6 +36,15 @@ ActiveRecord::Schema.define(version: 20161209054931) do
     t.string   "image"
     t.string   "slug"
     t.index ["slug"], name: "index_products_on_slug", unique: true
+  end
+
+  create_table "sales", force: :cascade do |t|
+    t.string   "buyer_email"
+    t.string   "seller_email"
+    t.string   "guid"
+    t.integer  "product_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
   create_table "users", force: :cascade do |t|
