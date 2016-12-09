@@ -52,3 +52,4 @@ gem 'devise'
 gem 'cancan'
 gem 'carrierwave'
 gem 'cloudinary'
+gem 'dotenv-rails', groups: [:development]
