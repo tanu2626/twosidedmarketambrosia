@@ -12,6 +12,10 @@
       <%= f.input :availability, required: false, label: false %>
     </div>
 
+    <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :image, as: :file %>
+   </div>
 
     <%= f.button :submit, class: "btn btn-primary btn-block" %>
 <% end %>
