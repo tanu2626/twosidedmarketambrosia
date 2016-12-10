@@ -1,10 +1,24 @@
 .jumbotron{
   background-image:url("//wallpoper.com/images/00/31/33/51/black-background_00313351.jpg") ;
-    color:#D419C7;
-    font-family: 23px/1em "ProximaNova-Regular",sans-serif;
+    color: #ff0066;
+
+    /*font-family: 23px/1em "ProximaNova-Regular",sans-serif;*/
+    font-family: The Woodland;
   }
 
   html, body {
-    background: #4A3D4D; 
+    background-image:url("lipstick-1367775_1920.jpg");
   }
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+
+  background-color: #A6A8C1;
+  border-color: #31347B;
+ }
+
+.btn
+{
+  background-color:#ff0066;
+  border-color:#ff0066;
 }

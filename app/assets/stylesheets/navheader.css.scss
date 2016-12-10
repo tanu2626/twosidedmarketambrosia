@@ -8,8 +8,15 @@ color: white; /*BACKGROUND color for active*/
 background-color: #030033;
 }
 
+.navbar-default .navbar-brand {
+    color: #ff0066;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
   .navbar-default {
-    background-color: #C96EDB;
+    background-color: #030033;
     border-color: #030033;
 }
 
@@ -17,7 +24,7 @@ background-color: #030033;
    .dropdown-menu > li > a:focus {
     color: #262626;
    text-decoration: none;
-  background-color: #66CCFF;  /*change color of links in drop down here*/
+  background-color: #ff0066; /*change color of links in drop down here*/
    }
 
  .nav > li > a:hover,
