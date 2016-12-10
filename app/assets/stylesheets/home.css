@@ -7,7 +7,9 @@
   }
 
   html, body {
-    background-image:url("lipstick-1367775_1920.jpg");
+    background-image:url("imagesq.jpg");
+  background-size: cover;
+
   }
 }
 
